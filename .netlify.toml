@@ -1,0 +1,49 @@
+[build]
+  command = ""
+  publish = "."
+  environment = { NODE_VERSION = "18" }
+
+[dev]
+  command = "python -m http.server 8000"
+  port = 8000
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/(robots.txt|sitemap.xml)"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[context.production]
+  command = ""
+  environment = { NODE_ENV = "production" }
+
+[context.deploy-preview]
+  command = ""
+  environment = { NODE_ENV = "preview" }
+
+[context.branch-deploy]
+  command = ""
+  environment = { NODE_ENV = "preview" }
