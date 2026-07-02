@@ -1,0 +1,38 @@
+{
+  "name": "text-case-converter",
+  "version": "1.0.0",
+  "description": "Free online text case converter supporting 11 case formats with dark mode and real-time preview",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o",
+    "serve": "npx live-server",
+    "deploy": "vercel"
+  },
+  "keywords": [
+    "text-converter",
+    "camelCase",
+    "snake_case",
+    "kebab-case",
+    "PascalCase",
+    "title-case",
+    "sentence-case",
+    "uppercase",
+    "lowercase",
+    "case-converter",
+    "text-formatter",
+    "online-tool",
+    "utility",
+    "free"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://text-case-converter.pro/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/text-case-converter.git"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
