@@ -1,9 +1,6 @@
 {
-  "buildCommand": "",
-  "devCommand": "python -m http.server 8000",
+  "buildCommand": "echo 'Static site'",
   "outputDirectory": ".",
-  "framework": "static",
-  "env": [],
   "headers": [
     {
       "source": "/(.*)",
@@ -35,7 +32,7 @@
       ]
     },
     {
-      "source": "/assets/(.*)",
+      "source": "/assets/.*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -55,7 +52,7 @@
   ],
   "rewrites": [
     {
-      "source": "/(?!assets/|robots\\.txt|sitemap\\.xml|.*\\.)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
