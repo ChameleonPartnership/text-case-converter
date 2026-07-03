@@ -1,0 +1,69 @@
+# Text Case Converter
+
+> Free online tool to instantly convert text between 11 different case formats for developers, writers, and content creators.
+
+## What We Do
+
+Text Case Converter is a privacy-first web utility that transforms text between multiple case formatting styles in real-time. All conversions happen entirely in your browser—no data is sent to servers, and no account is required.
+
+We support 11 case formats:
+- **camelCase** — JavaScript variable names (getUserData)
+- **snake_case** — Python, SQL, database fields (get_user_data)
+- **kebab-case** — URL slugs, CSS classes (get-user-data)
+- **PascalCase** — Java/C# class names (GetUserData)
+- **CONSTANT_CASE** — Environment variables (GET_USER_DATA)
+- **Title Case** — Headings and titles (Get User Data)
+- **Sentence case** — Regular sentences (Get user data)
+- **UPPERCASE** — Full capitals (GET USER DATA)
+- **lowercase** — All lowercase (get user data)
+- **tOGGLE cASE** — Inverted case (gET uSER dATA)
+- Plus additional format variants
+
+## Key Features
+
+- Real-time conversion as you type
+- One-click copy to clipboard for each format
+- Dark mode support
+- Mobile-responsive design
+- Completely free, no sign-up required
+- Offline-capable after initial load
+- Privacy-focused—no data collection
+- Accessible keyboard navigation
+- Screen reader compatible
+
+## Audience
+
+- **Software developers** — Format variable names, function names, and constants across programming languages
+- **Data engineers** — Convert field names for databases and APIs
+- **Content creators** — Transform titles and headings into required case styles
+- **DevOps engineers** — Standardise environment variable and configuration naming
+- **Writers** — Ensure consistent heading and title formatting
+
+## How to Use
+
+1. Type or paste your text into the input field
+2. View instant conversions of all 11 case formats below
+3. Click any "Copy" button to copy that format to clipboard
+4. No account, login, or data submission required
+
+## Main Pages
+
+- [Homepage](https://text-case-converter.pro/) — Main converter tool
+- [About](https://text-case-converter.pro/#info) — Detailed feature explanations
+- [FAQ](https://text-case-converter.pro/#faq) — Common questions answered
+
+## Technology
+
+Built with vanilla JavaScript, HTML5, and CSS3. No external dependencies. Works in all modern browsers and on mobile devices.
+
+## Trust & Privacy
+
+- 100% free, zero advertising
+- No user tracking or analytics
+- No data collection or transmission
+- Open source contribution welcome
+- GDPR compliant—no cookies or local storage of user data
+
+---
+
+*Last updated: July 2026*

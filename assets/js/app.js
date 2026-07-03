@@ -419,15 +419,3 @@ if (document.readyState === 'loading') {
 } else {
     new TextCaseConverterApp();
 }
-
-// ========================================
-// Service Worker Registration (PWA support)
-// ========================================
-
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch(() => {
-            // Service worker not available or failed
-        });
-    });
-}

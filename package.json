@@ -4,6 +4,7 @@
   "description": "Free online text case converter supporting 11 case formats with dark mode and real-time preview",
   "main": "index.html",
   "scripts": {
+    "dev": "python3 -m http.server 8000",
     "start": "npx http-server . -p 8000 -o",
     "serve": "npx live-server",
     "deploy": "vercel"
