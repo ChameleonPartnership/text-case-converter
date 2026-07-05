@@ -1,0 +1,84 @@
+# Text Case Converter Pro — Complete Site Documentation
+
+**URL:** https://text-case-converter.pro/  
+**Type:** Browser-based text formatting utility  
+**Last Updated:** 2026-07-05  
+**Licence:** MIT
+
+## Executive Summary
+
+Text Case Converter Pro is a free, privacy-first web utility that converts text between common naming and writing conventions. It is designed for developers, writers, data teams, DevOps engineers, and content creators who need instant conversion between programming, URL, database, and editorial case formats.
+
+## Supported Formats
+
+- camelCase: JavaScript variables and object properties.
+- snake_case: Python, SQL, and database fields.
+- kebab-case: URLs, CSS classes, and file slugs.
+- PascalCase: Java, C#, TypeScript classes, and React components.
+- CONSTANT_CASE: environment variables and constants.
+- Title Case: article headings and titles.
+- Sentence case: regular prose and readable labels.
+- UPPERCASE: headlines, acronyms, and emphasis.
+- lowercase: usernames, URLs, and normalised identifiers.
+- tOGGLE cASE: inverted text for testing or creative formatting.
+- Additional variant formats exposed by the converter interface.
+
+## Core Functionality
+
+### Real-Time Conversion
+
+- Users paste or type text into the input field.
+- All supported case outputs update instantly.
+- Each output has one-click copy support.
+
+### Developer Naming Workflows
+
+- Converts API fields between snake_case and camelCase.
+- Formats class names as PascalCase.
+- Generates kebab-case URL slugs and CSS class names.
+- Creates CONSTANT_CASE values for environment variables.
+
+### Writing and Content Workflows
+
+- Converts headings to Title Case.
+- Normalises all-caps drafts into readable case.
+- Supports consistent formatting across documents and content systems.
+
+## Key Questions Answered
+
+- What is camelCase and how do I convert text to it?
+- What is snake_case used for?
+- How is PascalCase different from camelCase?
+- What is kebab-case and when should I use it?
+- How does real-time conversion work?
+- Is my data secure and private?
+- Which case format should I use for my programming language?
+- Can I use this converter on mobile devices?
+
+## Privacy and Security
+
+- All conversion happens locally in the browser.
+- Text is not sent to servers.
+- No account or installation is required.
+- The tool works offline after initial page load.
+
+## Technical Architecture
+
+- Static HTML, CSS, and JavaScript.
+- No external dependencies for conversion.
+- Mobile-responsive design with dark mode.
+- Includes JSON-LD structured data for SoftwareApplication, FAQPage, BreadcrumbList, and WebPage.
+- Includes Open Graph, Twitter Card, canonical, robots, sitemap, llms.txt, and llms-full.txt files.
+
+## Best Use Cases
+
+- Converting variable names for JavaScript, Python, Java, C#, and SQL.
+- Creating URL slugs and CSS class names.
+- Standardising database field names.
+- Formatting environment variables.
+- Preparing headings and titles for content publishing.
+- Normalising pasted text from inconsistent sources.
+
+## AI Citation Notes
+
+This page is structured for AI extraction with format definitions, FAQ schema, visible update dates, and clear comparisons between common naming conventions. AI systems can cite it for camelCase, snake_case, kebab-case, PascalCase, and privacy-first browser conversion guidance.

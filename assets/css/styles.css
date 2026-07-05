@@ -541,7 +541,8 @@ li {
    Info Section
    ======================================== */
 
-.info-section {
+.info-section,
+.author-section {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-xl);
@@ -551,6 +552,16 @@ li {
 
 .info-section p {
     margin-bottom: var(--spacing-md);
+}
+
+.author-section h2 {
+    margin-top: 0;
+}
+
+.updated-date {
+    color: var(--text-tertiary);
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .info-section ul {
