@@ -297,7 +297,12 @@ class TextCaseConverterApp {
         this.toastElement = document.getElementById('toast');
 
         this.themeManager = new ThemeManager();
-        this.toast = new Toast(this.toastElement);
+        this.toast = this.toastElement ? new Toast(this.toastElement) : null;
+
+        if (!this.inputElement || !this.clearButton || !this.charCountElement) {
+            this.initThemeOnly();
+            return;
+        }
 
         this.outputElements = {
             uppercase: document.getElementById('uppercaseOutput'),
@@ -315,6 +320,14 @@ class TextCaseConverterApp {
         this.copyButtons = Array.from(document.querySelectorAll('.copy-btn'));
 
         this.init();
+    }
+
+    initThemeOnly() {
+        if (this.themeToggle) {
+            this.themeToggle.addEventListener('click', () => {
+                this.themeManager.toggle();
+            });
+        }
     }
 
     init() {
