@@ -1,0 +1,50 @@
+[
+  [
+    "What is uppercase?",
+    "Uppercase uses capital letters (A-Z). Used for acronyms, titles, and emphasis in text."
+  ],
+  [
+    "What is lowercase?",
+    "Lowercase uses small letters (a-z). The default for most body text and standard writing."
+  ],
+  [
+    "What is title case?",
+    "Title Case Capitalizes The First Letter Of Each Major Word, used in titles, headlines, and headings."
+  ],
+  [
+    "What is camelCase?",
+    "camelCase removes spaces and capitalizes each word except the first, used in programming and variable names."
+  ],
+  [
+    "What is PascalCase?",
+    "PascalCase capitalizes the first letter of each word including the first, used in class names and identifiers."
+  ],
+  [
+    "What is snake_case?",
+    "snake_case uses underscores between words in lowercase, common in programming, databases, and file names."
+  ],
+  [
+    "What is kebab-case?",
+    "kebab-case uses hyphens to separate words in lowercase, common in URLs, CSS classes, and file names."
+  ],
+  [
+    "What is SCREAMING_SNAKE_CASE?",
+    "SCREAMING_SNAKE_CASE is all uppercase with underscores, used for constants in programming."
+  ],
+  [
+    "How do different languages handle case?",
+    "Not all languages distinguish case. English uses case for grammar; some languages don't have uppercase/lowercase."
+  ],
+  [
+    "Why does case matter in programming?",
+    "Most programming languages are case-sensitive. 'variable' and 'Variable' are different identifiers."
+  ],
+  [
+    "What is mixed case?",
+    "Mixed case combines multiple casing styles or inconsistently applies capitalization in text."
+  ],
+  [
+    "How does case affect readability?",
+    "Proper case improves readability and word recognition speed. CamelCase scans faster than lowercase_with_underscores."
+  ]
+]
