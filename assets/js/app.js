@@ -298,6 +298,7 @@ class TextCaseConverterApp {
 
         this.themeManager = new ThemeManager();
         this.toast = this.toastElement ? new Toast(this.toastElement) : null;
+        this.initCookieConsent();
 
         if (!this.inputElement || !this.clearButton || !this.charCountElement) {
             this.initThemeOnly();
@@ -328,6 +329,30 @@ class TextCaseConverterApp {
                 this.themeManager.toggle();
             });
         }
+    }
+
+    initCookieConsent() {
+        const consentKey = 'textCaseCookieConsent';
+        if (localStorage.getItem(consentKey)) {
+            return;
+        }
+
+        const banner = document.createElement('div');
+        banner.className = 'cookie-consent';
+        banner.setAttribute('role', 'region');
+        banner.setAttribute('aria-label', 'Cookie notice');
+        banner.innerHTML = `
+            <p>This site uses localStorage for preferences and may use Google AdSense cookies for advertising. See our <a href="/privacy.html">Privacy Policy</a>.</p>
+            <button type="button">OK</button>
+        `;
+
+        const button = banner.querySelector('button');
+        button.addEventListener('click', () => {
+            localStorage.setItem(consentKey, 'accepted');
+            banner.remove();
+        });
+
+        document.body.appendChild(banner);
     }
 
     init() {
