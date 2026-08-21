@@ -5,4 +5,4 @@ Disallow: /*.json$
 Disallow: /.git/
 Disallow: /node_modules/
 
-Sitemap: https://text-case-converter.pro/sitemap.xml
+Sitemap: https://www.text-case-converter.pro/sitemap.xml

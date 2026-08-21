@@ -48,9 +48,9 @@ We support 11 case formats:
 
 ## Main Pages
 
-- [Homepage](https://text-case-converter.pro/) — Main converter tool
-- [About](https://text-case-converter.pro/#info) — Detailed feature explanations
-- [FAQ](https://text-case-converter.pro/#faq) — Common questions answered
+- [Homepage](https://www.text-case-converter.pro/) — Main converter tool
+- [About](https://www.text-case-converter.pro/#info) — Detailed feature explanations
+- [FAQ](https://www.text-case-converter.pro/#faq) — Common questions answered
 
 ## Technology
 
